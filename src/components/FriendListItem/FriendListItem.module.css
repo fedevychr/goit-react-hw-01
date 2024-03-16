@@ -19,4 +19,9 @@
 .status {
   font-size: 16px;
   text-align: center;
+  color: red;
+}
+
+.online.status {
+  color: green;
 }
