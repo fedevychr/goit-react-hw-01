@@ -1,7 +1,6 @@
 import css from './Profile.module.css';
 
 const Profile = ({ name, tag, location, image, stats }) => {
-  console.log('stats: ', stats);
   return (
     <div className={css.card}>
       <div className={css.userInfo}>
