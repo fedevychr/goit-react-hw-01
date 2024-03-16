@@ -4,7 +4,66 @@
   align-items: center;
   margin: 0 auto;
   background-color: #fff;
-  border: 1px solid #000;
+  border: 3px solid #000;
   border-radius: 10px;
   width: 600px;
+}
+
+.userInfo {
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.img {
+  width: 250px;
+  margin: 0 auto;
+  border-radius: 100%;
+  background-color: #312d2d;
+  margin-bottom: 20px;
+}
+
+.name {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.tag {
+  font-size: 40px;
+  color: gray;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.location {
+  font-size: 40px;
+  color: gray;
+  text-align: center;
+}
+
+.list {
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  margin: 0 auto;
+  background: rgb(216, 222, 205);
+  border-top: 3px solid gray;
+}
+
+.listItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: calc(100% / 3);
+  font-size: 36px;
+  padding: 20px;
+}
+
+.listItem:not(:last-child) {
+  border-right: 3px solid gray;
+}
+
+.stats {
+  font-weight: bold;
 }
